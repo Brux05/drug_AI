@@ -1,16 +1,3 @@
-"""
-ml_pipeline.py
-
-This is a line-for-line port of the logic from itr1.ipynb (cells 2, 6, 10, 12, 14,
-16, 18) into reusable functions. Nothing about the modeling approach, thresholds,
-architecture, hyperparameters, or the Usefulness formula has been changed —
-this module just wraps the notebook's own code so an API can call it.
-
-Cell 21 (the pIC50>7.5 & QED>0.5 parent-filtering experiment) is intentionally
-NOT included here, per instruction — the generation step below matches the
-notebook's cell 16/18 exactly (including the .head(50) selection, unchanged).
-"""
-
 import itertools
 
 import numpy as np

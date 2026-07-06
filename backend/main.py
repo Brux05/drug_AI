@@ -1,15 +1,3 @@
-"""
-main.py — FastAPI backend for the EGFR inhibitor discovery frontend.
-
-On startup this trains the model exactly the way the notebook does (same
-cleaning, same 70/15/15 split, same architecture, same 50 epochs) and keeps
-everything in memory. That takes anywhere from ~10s to a couple of minutes
-depending on your machine — watch the terminal for progress logs.
-
-Run with:
-    uvicorn main:app --reload --port 8000
-"""
-
 import io
 from contextlib import asynccontextmanager
 
