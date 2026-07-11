@@ -1,3 +1,6 @@
+# drug_AI
+Author : Pratyaksh
+
 # EGFR Inhibitor Discovery — Web App
 
 
@@ -76,5 +79,4 @@ proxies `/api/*` to `http://localhost:8000`, so no CORS setup is needed.
   fresh `generate` call won't always return the exact same candidates as the
   notebook run — this mirrors the notebook's own behavior if we rerun that
   cell.
-# drug_AI
-Author : Pratyaksh
+
